@@ -102,9 +102,9 @@ public class SimpleBot {
         for(int i=1;i<=number;i++){//used for loop for convenience
             System.out.println(i);
             try{
-                Thread.sleep(700);
+                Thread.sleep(700); //used sleep to make it look like counting
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
+                Thread.currentThread().interrupt(); //interrupt thread if it is interrupted
             }
             }
         try{
