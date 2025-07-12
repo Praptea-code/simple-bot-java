@@ -8,6 +8,8 @@ public class SimpleBot {
         bot.greet("kuku",2025);
         bot.takeName();
         bot.yourAge();
+        bot.count();
+        bot.end();
     }
 
     // this method is for greeting the user
@@ -46,6 +48,12 @@ public class SimpleBot {
             System.out.println(i);
             }
         System.out.println("Woohoo! I did it! xD");
+    }
+
+    //ended the conversation
+    public void end(){
+        System.out.println("Well, this is all i can do for now twin");
+        System.out.println("I hope you had fun 👈(ﾟヮﾟ👈)");
     }
 }
 //
