@@ -35,7 +35,7 @@ public class SimpleBot {
         int remainder7 = scanner.nextInt();
         int age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105; //got this trick from the internet
         System.out.println("Aha! you're " + age + " years old!");
-        System.out.println("Good time to start programming twin. (/≧▽≦)/");
+        System.out.println("Good time to start programming twin. <3");
     }
 
     //take user input for number and count to it
@@ -53,7 +53,7 @@ public class SimpleBot {
     //ended the conversation
     public void end(){
         System.out.println("Well, this is all i can do for now twin");
-        System.out.println("I hope you had fun 👈(ﾟヮﾟ👈)");
+        System.out.println("I hope you had fun !!");
     }
 }
 //
